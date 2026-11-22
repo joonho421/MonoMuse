@@ -1,39 +1,39 @@
-# Course projects
+# MonoMuse
 
-Carnegie Mellon University course projects in web development and Python.
+A responsive, multi-page museum website prototype built for a Carnegie Mellon University Information Systems course project.
 
-## People project — TartanResearch
+**[Explore the final website files](joons-finalVersion/index.html)**
 
-A team-built research portal prototype for exploring research opportunities and posting opportunities.
+## What I built
 
-- [Open the project files](peopleproject/index.html)
-- [Original team repository](https://github.com/pnimmaga-jpg/67250_peopleproject_team1)
+- Home, Explore, Exhibitions, Tickets, and Checkout pages
+- Responsive navigation for smaller screens
+- A time-based welcome message and expandable introduction
+- An interactive Leaflet map with OpenStreetMap tiles
+- Ticket and checkout forms with client-side validation and confirmation messages
 
-This project was created with a team. The source files and Apache 2.0 license are copied from the original repository; credit for the team project belongs to its contributors. The Supabase integration points to the team's original backend, so use care with live forms and data.
+## Technology
 
-## Technology project — MonoMuse
-
-A responsive, multi-page museum website prototype.
-
-- [Open the final project files](technologyproject/index.html)
-- [View earlier development milestones](joons-increment1/)
-
-MonoMuse includes Home, Explore, Exhibitions, Tickets, and Checkout pages; responsive navigation; a welcome message; a Leaflet map with OpenStreetMap tiles; and front-end ticket and checkout validation. The forms only show a browser confirmation; they do not process payments or save reservations.
-
-## Soccer game — Messi vs. Ronaldo
-
-A two-player Python soccer game built in CMU CS Academy.
-
-- [View the Python source and controls](soccergame/)
-- Includes movement, shooting, possession, tackling with cooldowns, scoring, and a restart option.
-- The source references player images using CS Academy `cmu://` addresses. GitHub displays the code but does not run the game, and a local copy needs access to those images or replacement image files.
+HTML, CSS, JavaScript, Leaflet, OpenStreetMap.
 
 ## Run locally
 
-Clone this repository or download the ZIP, then open `peopleproject/index.html` or `technologyproject/index.html` in a browser. VS Code Live Server also works.
+1. Download this repository using **Code → Download ZIP** and unzip it, or clone it with `git clone https://github.com/joonho421/67250_techproject_phaseb_D.git`.
+2. Open `joons-finalVersion/index.html` in a browser. You can also open that file with the VS Code Live Server extension.
+3. Use the navigation menu to explore the other pages.
 
-The original MonoMuse submission remains in `joons-finalVersion/`, with earlier versions in `joons-increment1/` through `joons-increment5/`.
+This is a **front-end prototype**. The forms show a confirmation in the browser; they do not process payment, send email, or save reservations. MonoMuse is a fictional museum.
 
-## Contributor
+## Repository structure
+
+- `joons-finalVersion/` — the version to review
+- `joons-increment1/` through `joons-increment5/` — earlier project milestones
+
+## Other projects
+
+- [TartanResearch — team research portal](https://github.com/joonho421/TartanResearch)
+- [Messi vs. Ronaldo — Python soccer game](https://github.com/joonho421/soccer-game)
+
+## Author
 
 Joon Ho Song — Information Systems, Carnegie Mellon University.
