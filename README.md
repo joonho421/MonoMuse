@@ -1,6 +1,6 @@
 # Course projects
 
-Two Carnegie Mellon University Information Systems web projects.
+Carnegie Mellon University course projects in web development and Python.
 
 ## People project — TartanResearch
 
@@ -19,6 +19,14 @@ A responsive, multi-page museum website prototype.
 - [View earlier development milestones](joons-increment1/)
 
 MonoMuse includes Home, Explore, Exhibitions, Tickets, and Checkout pages; responsive navigation; a welcome message; a Leaflet map with OpenStreetMap tiles; and front-end ticket and checkout validation. The forms only show a browser confirmation; they do not process payments or save reservations.
+
+## Soccer game — Messi vs. Ronaldo
+
+A two-player Python soccer game built in CMU CS Academy.
+
+- [View the Python source and controls](soccergame/)
+- Includes movement, shooting, possession, tackling with cooldowns, scoring, and a restart option.
+- The source references player images using CS Academy `cmu://` addresses. GitHub displays the code but does not run the game, and a local copy needs access to those images or replacement image files.
 
 ## Run locally
 
